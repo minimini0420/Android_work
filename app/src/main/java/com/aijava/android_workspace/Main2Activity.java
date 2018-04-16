@@ -9,6 +9,7 @@ import android.widget.Toast;
 public class Main2Activity extends AppCompatActivity {
 
     Button btn_4;
+
     @Override
     protected void onStart() {
         super.onStart();
@@ -28,7 +29,6 @@ public class Main2Activity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-
                 if(v.getId()==R.id.btn_4){
                     String str = btn_4.getText().toString();
                     if(str.equals("버튼4")){

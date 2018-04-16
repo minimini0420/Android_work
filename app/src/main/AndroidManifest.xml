@@ -12,9 +12,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".Exam5Activity" />
-        <activity android:name=".Exam_starActivity">
-
-        </activity>
+        <activity android:name=".Exam_starActivity"></activity>
         <activity android:name=".join.JoinActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".join.ResultActivity"></activity>
+        <activity android:name=".join.ResultActivity" />
+        <activity android:name=".ApiActivity"></activity>
     </application>
 
 </manifest>
